@@ -23,7 +23,7 @@ const Home = () => {
             <div>
 
                 {/* MAPA / VIDEO / ANIMACION DE LINEAS */}
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '220px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0px' }}>
                     <div className="map">
                         <div className="ContenedorMapa">
                             <div className="VideoMapa">
@@ -58,7 +58,7 @@ const Home = () => {
 
 
 
-                <div>
+                <div style={{ display: 'flex' }}>
 
                     <div className='NeonWrapper'>
                         <div className='ImagenFacundoContainer'>
@@ -66,11 +66,24 @@ const Home = () => {
                                 <img src={imagen}></img>
                             </div>
                         </div>
-                        <div className='LineaAnimada'></div>
-                        <div className='TextoAnimado'>Tu texto aquí</div>
                     </div>
-
+                    <div className='SobreMi'>
+                        <h4>Me satisface mucho entender cómo funcionan las cosas. Desde que empecé a programar, he comprendido que este es el mundo al que pertenezco. Siento la necesidad de siempre tener un enigma en frente, una incógnita, un desafío que superar. Es esa curiosidad la que me hace aprender y crecer constantemente.</h4>
+                    </div>
+                    <div className='Tecnologias'>
+                        <h2>tecnologias</h2>
+                    </div>
+                    <div className='Proyectos'>
+                        <h2>proyectos</h2>
+                    </div>
+                    <div>
+                        
+                    </div>
                 </div>
+
+
+
+
 
                 <div className='Iconos'>
                     <div>
@@ -87,9 +100,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='SobreMi'>
-                    <h4>Me satisface mucho entender cómo funcionan las cosas. Desde que empecé a programar, he comprendido que este es el mundo al que pertenezco. Siento la necesidad de siempre tener un enigma en frente, una incógnita, un desafío que superar. Es esa curiosidad la que me hace aprender y crecer constantemente.</h4>
-                </div>
+
 
             </div>
         </div>
