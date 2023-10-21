@@ -286,6 +286,9 @@
   }
   
   
+  .Tecnologias {
+    margin-left: 130px;
+  }
   
   
   
@@ -296,15 +299,140 @@
   
   
   .SobreMi {
-      font-family: Arial, Helvetica, sans-serif;
+      /* font-family: Arial, Helvetica, sans-serif; */
+      font-family: Arial Narrow, sans-serif;
+    font-style: italic;
       color: #00acfe;
       /* text-shadow: 0 0 1px #00acfe; */
       width: 250px;
       position: absolute;
       margin-left: 300px;
-      margin-top: 30px;
+      margin-top: 42px;
   }
 
-.Tecnologias {
-  margin-left: 130px;
+  .SobreMi h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 1.5s steps(30, end) forwards;
+    margin-top: 0.2em;  /* Ajuste de margen superior */
+    margin-bottom: 0.2em;  /* Ajuste de margen inferior */
+  }
+  
+  .SobreMi h4:nth-child(1) {
+    animation-delay: 2.5s;
+  }
+  
+  .SobreMi h4:nth-child(2) {
+    animation-delay: 4s;
+  }
+  
+  .SobreMi h4:nth-child(3) {
+    animation-delay: 5.5s;
+  }
+  
+  .SobreMi h4:nth-child(4) {
+    animation-delay: 7s;
+  }
+  
+  .SobreMi h4:nth-child(5) {
+    animation-delay: 8.5s;
+  }
+  
+  .SobreMi h4:nth-child(6) {
+    animation-delay: 10s;
+  }
+  
+  .SobreMi h4:nth-child(7) {
+    animation-delay: 11.5s;
+  }
+  
+  .SobreMi h4:nth-child(8) {
+    animation-delay: 13s;
+  }
+  
+  .SobreMi h4:nth-child(9) {
+    animation-delay: 14.5s;
+  }
+  
+  .SobreMi h4:nth-child(10) {
+    animation-delay: 16s;
+  }
+  
+  .SobreMi h4:nth-child(11) {
+    animation-delay: 17.5s;
+  }
+  .ContenedorMedio {
+    display: flex;
+    align-items: flex-start;
+  }
+  .Proyecto1 h4 {
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* width: 0; */
+    margin-top: 0.2em;  /* Ajuste de margen superior */
+    margin-bottom: 0.2em;  /* Ajuste de margen inferior */
+    font-family: Arial Narrow, sans-serif;
+    font-style: italic;
+    color: #00acfe;
+  }
+
+
+
+
+
+
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Separación entre botones */
 }
+
+.custom-button {
+    text-decoration: none;
+    padding: 3px 6px;
+    border-radius: 4px;
+    /* font-weight: 600; */
+    font-family: 'Orbitron', sans-serif;
+    transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.custom-button:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button:active {
+    transform: scale(0.93);
+}
+
+.green-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.purple-button {
+    background-color: #9c27b0;
+    color: white;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
