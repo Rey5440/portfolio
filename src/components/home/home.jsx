@@ -1,6 +1,6 @@
 import imagen from '../../assets/Facundo Fernandez.png';
 import './home.css';
-import gitHubIcon from '../../assets/gitHubIcon.png';
+import gitHubIcon from '../../assets/GitHubIcon.png';
 import linkedinIcon from '../../assets/LinkedinIcon.png';
 import gmailIcon from '../../assets/GmailIcon.png';
 import whatsappIcon from '../../assets/WhatsappIcon.png'
