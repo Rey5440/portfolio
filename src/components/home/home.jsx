@@ -1,5 +1,5 @@
 import imagen from '../../assets/Facundo Fernandez.png';
-import './home.css'
+import './home.css';
 import gitHubIcon from '../../assets/gitHubIcon.png';
 import linkedinIcon from '../../assets/LinkedinIcon.png';
 import gmailIcon from '../../assets/GmailIcon.png';
@@ -10,6 +10,13 @@ import { useState } from 'react';
 import marcoTech from '../../assets/MarcoTech.png'
 import trendytech from '../../assets/gifTrendyTech.gif';
 import trendyspot from '../../assets/gifTrendySpot.gif';
+import html5 from '../../assets/html-5.png';
+import javascript from '../../assets/JavascriptIcon.png'
+import react from '../../assets/ReactIcon.png';
+import postgres from '../../assets/PostgresIcon.ico';
+import css from '../../assets/css-3.png';
+import redux from '../../assets/ReduxIcon.png';
+import node from '../../assets/NodejsIcon2.png';
 
 const Home = () => {
 
@@ -85,18 +92,30 @@ const Home = () => {
                     </div>
 
                     <div className='Tecnologias'>
-                        <h2>tecnologias</h2>
+
+                    <div className='TituloProyectos'>Tecnologias</div>
+                    <div className='TechSkillsIcons'>
+                        <img src={html5} className='TechSkills'></img>
+                        <img src={javascript} className='TechSkills'></img>
+                        <img src={react} className='TechSkills'></img>
+                        <img src={postgres} className='TechSkills'></img>
+                        <img src={css} className='TechSkills'></img>
+                        <img src={gitHubIcon} className='TechSkills'></img>
+                        <img src={redux} className='TechSkills'></img>
+                        <img src={node} className='TechSkills'></img>
                     </div>
-                    <div className='Proyectos'>
+                    </div>
+                    <div>
+                            <div className='TituloProyectos'>Proyectos</div>
                         <div style={{ display: 'flex' }}>
                             <div className='Proyecto1'>
                                 <h4>--Trendy Tech--</h4>
                                 <h4>e-commerce con fines academicos</h4>
                                 <h4>venta de articulos electronicos</h4>
-                                <div class="button-container">
-                                    <a href="https://trendy-tech.onrender.com/" target="_blank" class="custom-button green-button">Link</a>
-                                    <a href="https://github.com/Rey5440/TrendyTech-Front" target="_blank" class="custom-button purple-button">Front</a>
-                                    <a href="https://github.com/Rey5440/TrendyTech-Back" target="_blank" class="custom-button purple-button">Back</a>
+                                <div className="button-container">
+                                    <a href="https://trendy-tech.onrender.com/" target="_blank" className="custom-button green-button">Link</a>
+                                    <a href="https://github.com/Rey5440/TrendyTech-Front" target="_blank" className="custom-button purple-button">Front</a>
+                                    <a href="https://github.com/Rey5440/TrendyTech-Back" target="_blank" className="custom-button purple-button">Back</a>
 
                                 </div>
                             </div>
@@ -108,10 +127,10 @@ const Home = () => {
                                     <h4>--Trendy Spot--</h4>
                                     <h4>e-commerce con fines academicos</h4>
                                     <h4>venta de indumentaria deportiva</h4>
-                                    <div class="button-container">
-                                        <a href="https://front-trendy-app.vercel.app/" target="_blank" class="custom-button green-button">Link</a>
-                                        <a href="https://github.com/NitsugaSamot/front-trendy-app" target="_blank" class="custom-button purple-button">Front</a>
-                                        <a href="https://github.com/NitsugaSamot/back-trendy-app" target="_blank" class="custom-button purple-button">Back</a>
+                                    <div className="button-container">
+                                        <a href="https://front-trendy-app.vercel.app/" target="_blank" className="custom-button green-button">Link</a>
+                                        <a href="https://github.com/NitsugaSamot/front-trendy-app" target="_blank" className="custom-button purple-button">Front</a>
+                                        <a href="https://github.com/NitsugaSamot/back-trendy-app" target="_blank" className="custom-button purple-button">Back</a>
 
                                     </div>
                                 </div>

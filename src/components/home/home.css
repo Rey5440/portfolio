@@ -261,11 +261,11 @@
     left: 222px; /* Coloca el texto al final de la segunda línea */
     top: 220px;
     font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 2px #00acfe, 0 0 2px #00acfe;
+    color: #00acfe;
     overflow: hidden; 
     white-space: nowrap; /* Esto evita que el texto se envuelva a la línea siguiente */
     width: 0;
-    color: #00acfe;
-    text-shadow: 0 0 2px #00acfe, 0 0 2px #00acfe;
     animation: typing 4s steps(30, end) forwards;
     animation-delay: 22s;
   }
@@ -278,17 +278,17 @@
   .Iconos {
     display: flex;
     justify-content: center; /* Centra los iconos horizontalmente */
+
     position: fixed; /* Esto hará que el div esté fijo y no se mueva con el scroll */
     bottom: 10px; /* Ajusta este valor si quieres que esté más arriba o más abajo */
-    /* left: 50%; */ /* Centra el div en el eje horizontal */
-    /* transform: translateX(-50%); */ /* Esto es necesario para centrar perfectamente el div */
-    margin-left: 55px;
+    left: 50%; /* Centra el div en el eje horizontal */
+    transform: translateX(-50%); /* Esto es necesario para centrar perfectamente el div */
+    /* margin-left: 55px; */
+    
   }
   
   
-  .Tecnologias {
-    margin-left: 130px;
-  }
+
   
   
   
@@ -419,7 +419,26 @@
 
 
 
+.TituloProyectos {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 2px #00acfe, 0 0 2px #00acfe;
+    color: #00acfe;
+    margin-bottom: 7px;
+}
 
+.TechSkills {
+  width: 40px;
+  margin: 7px;
+}
+
+.Tecnologias {
+  margin-left: 130px;
+  margin-right: 50px;
+}
+.TechSkillsIcons {
+  width: 162px;
+}
 
 
 
