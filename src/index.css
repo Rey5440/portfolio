@@ -1,34 +1,12 @@
-/* body, html {
-    height: 100%;
-    align-items: center;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #383838;
-} */
 body, html {
     height: 100%;
     margin: 0;
-    /* background-color: #131313; */
-    /* text-align: center; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
     
-    url('./assets/fondo1.jpg'); /* ajusta la ruta según corresponda */
+    url('./assets/fondo1.jpg');
     
     background-size: cover; /* esto hará que la imagen cubra todo el espacio disponible */
     background-repeat: no-repeat; /* esto evitará que la imagen se repita si es más pequeña que el contenedor */
     background-position: center center;
 }
-/* #root {
-    margin: 0;
-    padding: 0;
-} */
-
-
-
-
-
-
-
-
 /* overflow: hidden; */       /* quita el scroll y queda fijo aunq la sea mas grande */
