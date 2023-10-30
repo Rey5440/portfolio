@@ -101,7 +101,7 @@ const Home = () => {
                             <img src={node} className='TechSkills'></img>
                         </div>
                     </div>
-                    <div>
+                    <div className='Espaceador'>
                         <div className='TituloProyectos'>Proyectos</div>
                         <div style={{ display: 'flex' }}>
                             <div className='Proyecto1'>
