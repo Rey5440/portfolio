@@ -31,8 +31,8 @@ const Home = () => {
         <div className='HomeCss'>
             <div>
 
-                {/* MAPA / VIDEO / ANIMACION DE LINEAS */}
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0px' }}>
+                {/* MAPA / VIDEO / ANIMACION DE LINEAS/ NOMBRE / PROFESION */}
+                <div className='ContMapNomb'>
                     <div className="map">
                         <div className="ContenedorMapa">
                             <div className="VideoMapa">
@@ -63,12 +63,11 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                {/*CIERRE DE:  MAPA / VIDEO / ANIMACION DE LINEAS */}
+                {/*CIERRE DE:  MAPA / VIDEO / ANIMACION DE LINEAS / NOMBRE / PROFESION */}
 
 
-
+                {/*IMAGEN MIA / ANIMACION / SOBRE MI / TECH-SKILLS / PROYECTOS */}
                 <div className='ContenedorMedio'>
-
                     <div className='NeonWrapper'>
                         <div className='ImagenFacundoContainer'>
                             <div className="ImagenFacundo">
@@ -76,7 +75,6 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-
                     <div className='SobreMi'>
                         <h4>Me satisface mucho entender</h4>
                         <h4>cómo funcionan las cosas.</h4>
@@ -90,23 +88,21 @@ const Home = () => {
                         <h4>que me hace aprender y crecer</h4>
                         <h4>constantemente.</h4>
                     </div>
-
                     <div className='Tecnologias'>
-
-                    <div className='TituloProyectos'>Tecnologias</div>
-                    <div className='TechSkillsIcons'>
-                        <img src={html5} className='TechSkills'></img>
-                        <img src={javascript} className='TechSkills'></img>
-                        <img src={react} className='TechSkills'></img>
-                        <img src={postgres} className='TechSkills'></img>
-                        <img src={css} className='TechSkills'></img>
-                        <img src={gitHubIcon} className='TechSkills'></img>
-                        <img src={redux} className='TechSkills'></img>
-                        <img src={node} className='TechSkills'></img>
-                    </div>
+                        <div className='TituloProyectos'>Tecnologias</div>
+                        <div className='TechSkillsIcons'>
+                            <img src={html5} className='TechSkills'></img>
+                            <img src={javascript} className='TechSkills'></img>
+                            <img src={react} className='TechSkills'></img>
+                            <img src={postgres} className='TechSkills'></img>
+                            <img src={css} className='TechSkills'></img>
+                            <img src={gitHubIcon} className='TechSkills'></img>
+                            <img src={redux} className='TechSkills'></img>
+                            <img src={node} className='TechSkills'></img>
+                        </div>
                     </div>
                     <div>
-                            <div className='TituloProyectos'>Proyectos</div>
+                        <div className='TituloProyectos'>Proyectos</div>
                         <div style={{ display: 'flex' }}>
                             <div className='Proyecto1'>
                                 <h4>--Trendy Tech--</h4>
@@ -116,7 +112,6 @@ const Home = () => {
                                     <a href="https://trendy-tech.onrender.com/" target="_blank" className="custom-button green-button">Link</a>
                                     <a href="https://github.com/Rey5440/TrendyTech-Front" target="_blank" className="custom-button purple-button">Front</a>
                                     <a href="https://github.com/Rey5440/TrendyTech-Back" target="_blank" className="custom-button purple-button">Back</a>
-
                                 </div>
                             </div>
                             <img src={trendytech} width="180" /* height="auto" */></img>
@@ -131,7 +126,6 @@ const Home = () => {
                                         <a href="https://front-trendy-app.vercel.app/" target="_blank" className="custom-button green-button">Link</a>
                                         <a href="https://github.com/NitsugaSamot/front-trendy-app" target="_blank" className="custom-button purple-button">Front</a>
                                         <a href="https://github.com/NitsugaSamot/back-trendy-app" target="_blank" className="custom-button purple-button">Back</a>
-
                                     </div>
                                 </div>
                                 <img src={trendyspot} width="180" /* height="auto" */></img>
@@ -139,14 +133,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-
                     </div>
                 </div>
+                {/*cierre de: IMAGEN MIA / ANIMACION / SOBRE MI / TECH-SKILLS / PROYECTOS */}
 
 
 
-
-
+                {/* ICONOS GITHUB-MAIL-LINKEDIN-WHATSAPP*/}
                 <div className='Iconos'>
                     <a href="https://github.com/Rey5440" target="_blank" rel="noopener noreferrer">
                         <img className='GitHubIcon' src={gitHubIcon} alt="GitHub" />
@@ -161,7 +154,7 @@ const Home = () => {
                         <img className='WhatsappIcon' src={whatsappIcon} alt="WhatsApp" />
                     </a>
                 </div>
-
+                {/* cierre de: ICONOS GITHUB-MAIL-LINKEDIN-WHATSAPP*/}
 
 
             </div>

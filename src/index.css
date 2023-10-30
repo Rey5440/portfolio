@@ -1,12 +1,10 @@
 body, html {
-    height: 100%;
     margin: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
-    
     url('./assets/fondo1.jpg');
-    
-    background-size: cover; /* esto hará que la imagen cubra todo el espacio disponible */
-    background-repeat: no-repeat; /* esto evitará que la imagen se repita si es más pequeña que el contenedor */
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
+    min-height: 100vh;
+    /* overflow: hidden; */       /* quita el scroll y queda fijo aunq la sea mas grande */
 }
-/* overflow: hidden; */       /* quita el scroll y queda fijo aunq la sea mas grande */
